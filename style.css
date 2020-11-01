@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.profil{
+    float: left;
+    background-color: royalblue;
+    width: 30%;
+    padding: 10px 30px 30px;
+    flex-basis: 30%;
+}
+
+.img-foto {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.profil h1{
+    margin: 5px;
+    font-family: 'Bebas Neue';
+    color: white;
+    text-align: justify;
+    letter-spacing: 5pt;
+    font-size: 30pt;
+    font-weight: normal;
+    line-height: 45px;
+}
+
+.container{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.profil h2, h3, p{
+    font-family: 'Open Sans';
+    color: white;
+    text-align: left;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 15pt;
+    line-height: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    margin: 16px 0;
+}
+
+.profil h3{
+    font-weight: bold;
+    font-size: 13pt;
+    margin: 16px 0 2px;
+}
+
+.profil p{
+    font-weight: normal;
+    margin: 0 30px 5px;
+}
+
+.underline{
+    border-bottom: 2px solid white;
+    width: 100%;
+    display: block;
+}
+
+.detail h2{
+    font-size: 20pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fa{
+    margin-right: 15px;
+    width: 15px;
+    color: white;
+}
+
+.line img{
+    margin-right: 15px;
+    width: 15px;
+}
+
+.detail{
+    flex-basis: 70%;
+    font-family: 'Open Sans';
+    color: black;
+    float: left;
+    position: relative;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: fixed;
+    padding: 0 30px;
+}
+
+.detail h2, h3, p{
+    text-align: left;
+    margin: 16px 0;
+}
+
+.box{
+    float: left;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+    line-height: 25pt;
+}
+
+.year{
+    width: 25%;
+    text-align: right;
+}
+
+.desc{
+    width: 75%;
+    text-align: left;
+}
